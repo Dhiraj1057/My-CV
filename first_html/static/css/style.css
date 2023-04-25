@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.top {
+    position: absolute;
+    left: 0;
+    top: 6dvw;
+    background-color: #05BFDB;
+    width: 100dvw;
+    height: 16dvw;
+    z-index: 1;
+}
+
+h1 {
+    color: white;
+    font-size: 4dvw;
+    margin-left: 5dvw;
+}
+
+h2 {
+    color: white;
+    font-size: 2dvw;
+    margin-left: 5dvw;
+}
+
+img {
+    border-color: white;
+    border-style: solid;
+    border-width: 1dvw;
+    position: absolute;
+    top: -3dvw;
+    right: 3dvw;
+    border-radius: 50dvw;
+    width: 18vw;
+}
+
+.left-side {
+    display: inline-block;
+    background-color: #2E3840;
+    width: 36dvw;
+    height: 120dvw;
+}
+
+.Basic_info {
+    position: relative;
+    top: 27dvw;
+    padding: 0 3.5dvw;
+    color: white;
+    height: 89dvw;
+    overflow: auto;
+}
+
+table {
+    font-size: 1.25em;
+}
+
+td {
+    vertical-align: top;
+}
+
+.right-side {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    width: 64dvw;
+    height: 120dvw;
+}
+
+.info {
+    position: relative;
+    top: 27dvw;
+    padding: 0 3.5dvw;
+    color: black;
+    height: 89dvw;
+    overflow: auto;
+}
+
+.my_flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.my-align {
+    flex-grow: 1;
+}
+
+.EDUCATION_info {
+    float: right;
+}
+
+@media (max-width: 992px) {
+    .top {
+        top: 9dvw;
+        height: 24dvw;
+    }
+
+    h1 {
+        font-size: 6dvw;
+    }
+    
+    h2 {
+        font-size: 3dvw;
+    }
+    
+    img {
+        top: -4dvw;
+        right: 4dvw;
+        width: 27vw;
+    }
+    
+    .left-side {
+        width: 100dvw;
+        height: auto;
+    }
+
+    .Basic_info {
+        position: static;
+        padding: 40dvw 4.5dvw 6dvw;
+        height: auto;
+    }
+
+    .right-side {
+        position: static;
+        width: 100dvw;
+    } 
+
+    .info {
+        position: static;
+        padding: 6dvw 4.5dvw 6dvw;
+        height: auto;
+    }
+}
